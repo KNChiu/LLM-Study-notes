@@ -16,4 +16,5 @@
     * [基礎問答方式](prompting-tool/dspy-ji-ben-gong-neng-shi-yong/ji-chu-wen-da-fang-shi.md)
     * [檢索問答方式](prompting-tool/dspy-ji-ben-gong-neng-shi-yong/jian-suo-wen-da-fang-shi.md)
     * [提示詞自動優化](prompting-tool/dspy-ji-ben-gong-neng-shi-yong/ti-shi-ci-zi-dong-you-hua.md)
+    * [優化器選擇](prompting-tool/dspy-ji-ben-gong-neng-shi-yong/you-hua-qi-xuan-ze.md)
   * [mitmproxy API 解析](prompting-tool/mitmproxy-api-jie-xi.md)
