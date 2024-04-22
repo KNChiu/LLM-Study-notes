@@ -1,4 +1,4 @@
-# Chain-of-Thought (CoT) Prompting
+# Chain-of-Thought (CoT)
 
 ## **Few-shot CoT Prompting**
 
@@ -6,7 +6,7 @@
 
 * 透過加入手動編寫 (Manual-CoT) 的少樣本推理步驟提示，實現較為複雜的問題
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Manual-CoT</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Manual-CoT</p></figcaption></figure>
 
 ## **Zero-shot CoT Prompting**
 
@@ -18,7 +18,7 @@
 Let's think step by step.
 ```
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Zero-shot CoT</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Zero-shot CoT</p></figcaption></figure>
 
 ## **Self-Consistency**
 
@@ -36,7 +36,7 @@ Let's think step by step.
 
 由於 Zero-shot CoT (a) 使用固定的 Prompt **“Let's think step by step.”** 與 Few-shot CoT (Manual-CoT)(b) 使用**推理步驟範例**不一定適合所有的情境(arithmetic 、commonsense reasoning…)
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Zero-shot, Few-shot COT review</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Zero-shot, Few-shot COT review</p></figcaption></figure>
 
 ### 兩階段工作拆解
 
