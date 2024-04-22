@@ -37,7 +37,7 @@ turbo = dspy.AzureOpenAI(
                         api_base = "https://openai-infra-gpt4.openai.azure.com/", 
                         api_version="2024-02-15-preview",
                         model="gpt35_16k",
-                        api_key="1d46cc75968e40c28dee71ec63855728",  
+                        api_key="{api_key}",  
                         )
 
 dspy.settings.configure(lm=turbo)
