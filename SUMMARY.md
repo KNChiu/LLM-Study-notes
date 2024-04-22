@@ -9,3 +9,7 @@
   * [Naive RAG](retrieval-augmented-generation-rag/naive-rag.md)
   * [Advanced RAG](retrieval-augmented-generation-rag/advanced-rag.md)
   * [Modular RAG](retrieval-augmented-generation-rag/modular-rag.md)
+* [Prompting Tool](prompting-tool/README.md)
+  * [DSPy 基本功能使用](prompting-tool/dspy-ji-ben-gong-neng-shi-yong/README.md)
+    * [基礎問答方式](prompting-tool/dspy-ji-ben-gong-neng-shi-yong/ji-chu-wen-da-fang-shi.md)
+    * [檢索問答方式](prompting-tool/dspy-ji-ben-gong-neng-shi-yong/jian-suo-wen-da-fang-shi.md)
