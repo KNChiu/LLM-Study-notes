@@ -15,3 +15,4 @@
     * [參考資料](prompting-tool/dspy-ji-ben-gong-neng-shi-yong/can-kao-zi-liao.md)
     * [基礎問答方式](prompting-tool/dspy-ji-ben-gong-neng-shi-yong/ji-chu-wen-da-fang-shi.md)
     * [檢索問答方式](prompting-tool/dspy-ji-ben-gong-neng-shi-yong/jian-suo-wen-da-fang-shi.md)
+  * [mitmproxy API 解析](prompting-tool/mitmproxy-api-jie-xi.md)
