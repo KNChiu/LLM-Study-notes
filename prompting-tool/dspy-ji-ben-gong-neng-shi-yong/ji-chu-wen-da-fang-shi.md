@@ -20,7 +20,7 @@
 
 自動生成對應 Prompt 並問答
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## 自定方式(簡單 QA)
 
