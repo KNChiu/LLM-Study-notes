@@ -4,6 +4,10 @@ description: 使用 zero/few shot 對語言模型的提示詞進行微調改進�
 
 # 提示詞自動優化
 
+## 參考資料
+
+Signature Optimizer : [https://dspy-docs.vercel.app/docs/deep-dive/teleprompter/signature-optimizer](https://dspy-docs.vercel.app/docs/deep-dive/teleprompter/signature-optimizer)
+
 ## 建立 Pipeline
 
 ### OpenAI 設定
@@ -48,6 +52,8 @@ dspy.configure(lm=turbo)
 from dspy.datasets import HotPotQA
 dataset = HotPotQA(train_seed=1, train_size=10, eval_seed=2023, dev_size=20, test_size=0)
 original_trainset, original_devset = dataset.train, dataset.dev
+
+trans_devset_with_input = [dspy.Example({"question": r["question"], "answer": r["answer"]}).with_inputs("question") for r in original_trainset]
 ```
 
 ### 建立 CoT 模組
@@ -90,5 +96,55 @@ def validate_context_and_answer(example, pred, trace=None):
 NUM_THREADS = 5
 evaluate = Evaluate(devset=trans_devest, metric=validate_context_and_answer, num_threads=NUM_THREADS, display_progress=True, display_table=False)
 
+```
+
+### Pipeline 評估
+
+```python
+cot_baseline = CoTPipeline()
+evaluate(cot_baseline, devset=trans_devset_with_input)
+```
+
+### 使用 COPRO 建立teleprompter 並進行優化 <a href="#using-copro" id="using-copro"></a>
+
+匯入並初始化 teleprompter (題詞器)，並使用自定義的 `validate_context_and_answer` 進行評分
+
+，<mark style="color:red;">`teleprompter.compile`</mark>進行自動優化我們的 `CoT` 模組
+
+> display\_table : 顯示輸出結果數量
+
+```python
+from dspy.teleprompt import COPRO
+
+teleprompter = COPRO(
+    metric=validate_context_and_answer,
+    verbose=True,
+)
+
+kwargs = dict(num_threads=5, display_progress=True, display_table=10) # Used in Evaluate class in the optimization process
+
+compiled_prompt_opt = teleprompter.compile(cot_baseline, trainset=trans_devset_with_input, eval_kwargs=kwargs)
+
+```
+
+會得到如下優化後提示與評分
+
+```
+i: "Please answer the question and provide your reasoning for the answer. Your response should be clear and detailed, explaining the rationale behind your decision. Please ensure that your answer is well-reasoned and supported by relevant explanations and examples."
+p: "[Rationale]"
+Average Metric (78.9) ...
+```
+
+### 優化後結果輸出
+
+將優化後的提示貼在新的流程用以取得更好的結果
+
+```python
+class CoTSignature(dspy.Signature):
+    """Please answer the question and provide your reasoning for the answer. Your response should be clear and detailed, explaining the rationale behind your decision. Please ensure that your answer is well-reasoned and supported by relevant explanations and examples."""
+
+    question = dspy.InputField(desc="question about something")
+    reasoning = dspy.OutputField(desc="reasoning for the answer", prefix="[Rationale]")
+    answer = dspy.OutputField(desc="often between 1 and 5 words")
 ```
 
