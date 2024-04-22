@@ -19,7 +19,7 @@ description: 簡單敘述 LLM 歷史發展
 
 ### 訓練階段如下&#x20;
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>GPT 訓練流程</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>GPT 訓練流程</p></figcaption></figure>
 
 * [Pretraining](llm-fa-zhan-liu-cheng.md#pretraining)(佔整體約99%的時間)
 * Finetuning
@@ -55,7 +55,7 @@ Dataset Tokens 與 Parameters 比較
 
 prompt(人類指令約 10K) ↔ response(針對人類指令標註約 100K)
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>資料集準備</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>資料集準備</p></figcaption></figure>
 
 ### Reward Modeling
 
@@ -70,7 +70,7 @@ prompt(人類指令約 10K) ↔ response(針對人類指令標註約 100K)
 * <mark style="background-color:green;">**綠區塊**</mark> : 預測的結果
 * 在<mark style="background-color:blue;">**藍區塊**</mark>後加入一個<mark style="background-color:yellow;">**黃區塊**</mark>來獲得<mark style="background-color:green;">**綠區塊**</mark>的預測結果
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Reward Modeling Training</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Reward Modeling Training</p></figcaption></figure>
 
 
 
@@ -86,7 +86,7 @@ prompt(人類指令約 10K) ↔ response(針對人類指令標註約 100K)
     * 拒絕不恰當的問題(<mark style="color:blue;">**Rejecting improper questions**</mark>) : 內容過濾器和RLHF誘導的結合。
     * 拒絕其知識範圍之外的問題(<mark style="color:blue;">**Rejecting questions outside its knowledge scope**</mark>)：拒絕回應2021 年6 月之後發生的新事件。使模型能夠隱式地分類哪些資訊在其知識範圍內。
 
-    <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>RLHF 效果比較</p></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption><p>RLHF 效果比較</p></figcaption></figure>
 
 
 

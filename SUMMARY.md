@@ -6,3 +6,4 @@
 ## LLM Prompt Engineering
 
 * [Prompt Engineering](llm-prompt-engineering/prompt-engineering.md)
+* [Chain-of-Thought (CoT) Prompting](llm-prompt-engineering/chain-of-thought-cot-prompting.md)
