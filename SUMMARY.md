@@ -13,6 +13,7 @@
 * [Prompting Tool](prompting-tool/README.md)
   * [DSPy 基本功能使用](prompting-tool/dspy-ji-ben-gong-neng-shi-yong/README.md)
     * [參考資料](prompting-tool/dspy-ji-ben-gong-neng-shi-yong/can-kao-zi-liao.md)
+    * [DSPy 介紹](prompting-tool/dspy-ji-ben-gong-neng-shi-yong/dspy-jie-shao.md)
     * [基礎問答方式](prompting-tool/dspy-ji-ben-gong-neng-shi-yong/ji-chu-wen-da-fang-shi.md)
     * [檢索問答方式](prompting-tool/dspy-ji-ben-gong-neng-shi-yong/jian-suo-wen-da-fang-shi.md)
     * [提示詞自動優化](prompting-tool/dspy-ji-ben-gong-neng-shi-yong/ti-shi-ci-zi-dong-you-hua.md)

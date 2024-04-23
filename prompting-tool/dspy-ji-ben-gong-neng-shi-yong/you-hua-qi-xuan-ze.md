@@ -35,3 +35,14 @@ description: 依據不同使用場景選擇不同優化器
 #### BootstrapFewShotWithOptuna
 
 > 透過 Optuna 超參數優化方法，對提示集進行 `BootstrapFewShot`，進行實驗以最大化評估指標。
+
+
+
+### **Automatic Instruction Optimization (**自動指令優化)
+
+#### COPRO&#x20;
+
+在每個跌代中生成並完善新指示，並透過協調上升 (Coordinate Ascent) 對其進行最佳化
+
+
+
