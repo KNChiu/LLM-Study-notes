@@ -43,3 +43,10 @@ os.environ['SSL_CERT_FILE'] = cert_file
 os.environ['HTTPS_PROXY'] = 'http://127.0.0.1:8080'
 ```
 
+
+
+### 攔截API封包
+
+檢視完整 Request 與 Response
+
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>設定篩選條件與檢視內容</p></figcaption></figure>
