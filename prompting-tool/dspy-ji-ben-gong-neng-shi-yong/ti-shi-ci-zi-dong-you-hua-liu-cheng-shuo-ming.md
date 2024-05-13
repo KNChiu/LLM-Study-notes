@@ -190,7 +190,7 @@ Proposed Prefix For Output Field: \"The answer is \">
 #### 設定生成提示詞的數量（依據需求可以設定<mark style="background-color:red;">每次要生成多少候選提示詞</mark>）
 
 <pre><code>"model": "gpt35_16k",
-"n": 4, &#x3C;- 生成4個後選詞
+"n": 4, &#x3C;- 生成4個候選詞
 "presence_penalty": 0,
 <strong>"stop": null,
 </strong><strong>"temperature": 1.4,
@@ -339,7 +339,7 @@ Proposed Instruction:
 
 ```
 "model": "gpt35_16k",
-"n": 4, <- 生成4個後選詞
+"n": 4, <- 生成4個候選詞
 "presence_penalty": 0,
 "stop": null,
 "temperature": 1.4,
