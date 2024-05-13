@@ -52,7 +52,7 @@ DSPy 是一種針對 <mark style="color:red;">`Prompt (提示)`</mark>最佳化�
 
 #### Teleprompters (提詞器)
 
-> 透過 DSPy 編譯器實現自動最佳化，詳細見[提示詞自動優化章節](ti-shi-ci-zi-dong-you-hua.md)，自動將 [Signatures ](dspy-jie-shao.md#signatures-qian-ming)與 [Modules ](dspy-jie-shao.md#modules)進行結合與自動優化。
+> 透過 DSPy 編譯器實現自動最佳化，詳細見[提示詞自動優化章節](ti-shi-ci-zi-dong-you-hua-fan-li-cheng-shi.md)，自動將 [Signatures ](dspy-jie-shao.md#signatures-qian-ming)與 [Modules ](dspy-jie-shao.md#modules)進行結合與自動優化。
 
 <figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption><p>以CoT為例，使用最佳的提示範例</p></figcaption></figure>
 
