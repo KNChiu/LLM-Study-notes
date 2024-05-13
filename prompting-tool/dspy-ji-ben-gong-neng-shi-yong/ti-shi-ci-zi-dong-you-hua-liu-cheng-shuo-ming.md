@@ -34,7 +34,7 @@ def validate_context_and_answer(example, pred, trace=None):
 
 ### 設計各區塊
 
-一個完整的問答會包含 : `簽名` + `輸出入範例` + `問題與回應`(而 Prompt 的部分為 : `簽名` + `輸出入範例`)
+完整的問答會包含 : `初始簽名` + `輸出入範例` + `問題與回應`(而 Prompt 的部分為 : `簽名` + `輸出入範例`)
 
 ```
 <簽名>
@@ -54,7 +54,7 @@ class CoTSignature(dspy.Signature):
 
 #### 建立初始簽名
 
-設計一個`初始簽名`用於提示任務功能
+> 設計一個`初始簽名`用於提示任務功能
 
 ```
 Calculate the solution to the given math question and provide the answer as a numerical response.
@@ -62,7 +62,7 @@ Calculate the solution to the given math question and provide the answer as a nu
 
 #### 輸出入範例
 
-設計輸出入`預期的樣式`
+> 設計輸出入`預期的樣式`
 
 ```
 question : "question about math"
@@ -82,6 +82,8 @@ answer : "is numbers only"
 Question: <實際問題>
 Reasoning: Let's think step by step <LLM 回應>
 ```
+
+
 
 ### 完整問答樣式
 
@@ -109,6 +111,10 @@ Answer: $22 - $16 = $6
 ## 提示詞生成（第一次）
 
 完成[事前準備](ti-shi-ci-zi-dong-you-hua-liu-cheng-shuo-ming.md#shi-qian-zhun-bei)後開始主流程
+
+<figure><img src="../../.gitbook/assets/提示詞優化流程 (3).png" alt=""><figcaption><p>提示詞優化流程</p></figcaption></figure>
+
+
 
 ### 候選提問詞（生成多個）
 
@@ -150,7 +156,7 @@ Proposed Prefix For Output Field: The string at the end of the prompt, which wil
 提議輸出欄位前綴：提示末尾的字串，這將幫助模型開始解決任務
 ```
 
-使用[初始簽名](ti-shi-ci-zi-dong-you-hua-liu-cheng-shuo-ming.md#jian-li-chu-shi-qian-ming)做為優化的方向依據（英文／中文對照）：
+#### 使用[初始簽名](ti-shi-ci-zi-dong-you-hua-liu-cheng-shuo-ming.md#jian-li-chu-shi-qian-ming)做為優化的方向依據（英文／中文對照）：
 
 ```
 Basic Instruction: 
@@ -191,11 +197,13 @@ Proposed Prefix For Output Field: \"The answer is \">
 </strong>"top_p": 0.95
 </code></pre>
 
+
+
 ### 初始簽名與候選提示詞
 
 比較初始簽名與經過 LLM 生成的候選詞（英文／中文對照）：
 
-總共有 <mark style="color:red;">`初始簽名(1)`</mark>+ <mark style="color:red;">`候選提示詞(4)`</mark> =<mark style="color:red;">`5 個`</mark>
+> 總共有 <mark style="color:red;">`初始簽名(1)`</mark>+ <mark style="color:red;">`候選提示詞(4)`</mark> =<mark style="color:red;">`5 個`</mark>
 
 ```
 Basic Instruction: Calculate the solution to the given math question and provide the answer as a numbers only response.
@@ -212,7 +220,9 @@ Proposed Instruction-4: Solve the math question provided below and provide the a
 
 ```
 
-### 自動評比
+
+
+### 自動評分
 
 自動依序將以上五個提示詞進行評分判斷好壞並記錄，包含以下資訊&#x20;
 
@@ -280,9 +290,11 @@ Proposed Instruction-4: Solve the math question provided below and provide the a
   'depth': 0}]
 ```
 
-以上就是一次的完整流程，可以依據需求進行更多次的疊代以找出合適的提示詞
+> 以上就是一次的完整流程，可以依據需求進行更多次的疊代以找出合適的提示詞
 
-## 提示詞生成(第N次)
+
+
+## 提示詞生成（第N次）
 
 ### 合併過往成果提供 LLM 參考
 
@@ -318,6 +330,8 @@ Attempted Instructions:
 [12] «Resulting Score #4: 90.0»
 Proposed Instruction:
 ```
+
+
 
 ### 生成下一階段提示詞
 
