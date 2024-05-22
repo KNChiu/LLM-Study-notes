@@ -10,6 +10,7 @@
   * [Naive RAG](retrieval-augmented-generation-rag/naive-rag.md)
   * [Advanced RAG](retrieval-augmented-generation-rag/advanced-rag.md)
   * [Modular RAG](retrieval-augmented-generation-rag/modular-rag.md)
+  * [Prompt formats (Llama 3)](retrieval-augmented-generation-rag/prompt-formats-llama-3.md)
 * [Prompting Tool](prompting-tool/README.md)
   * [DSPy 基本功能使用](prompting-tool/dspy-ji-ben-gong-neng-shi-yong/README.md)
     * [參考資料](prompting-tool/dspy-ji-ben-gong-neng-shi-yong/can-kao-zi-liao.md)
