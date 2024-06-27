@@ -6,6 +6,7 @@
   * [小模型與高質量數據集討論](llm-overview/xiao-mo-xing-yu-gao-zhi-liang-shu-ju-ji-tao-lun/README.md)
     * [Phi-1: Textbooks Are All You Need](llm-overview/xiao-mo-xing-yu-gao-zhi-liang-shu-ju-ji-tao-lun/phi-1-textbooks-are-all-you-need.md)
     * [合成數據](llm-overview/xiao-mo-xing-yu-gao-zhi-liang-shu-ju-ji-tao-lun/he-cheng-shu-ju.md)
+    * [爭議討論](llm-overview/xiao-mo-xing-yu-gao-zhi-liang-shu-ju-ji-tao-lun/zheng-yi-tao-lun.md)
 * [Prompting Techniques](prompting-techniques/README.md)
   * [何謂 Prompts](prompting-techniques/he-wei-prompts.md)
   * [Chain-of-Thought (CoT)](prompting-techniques/chain-of-thought-cot.md)
