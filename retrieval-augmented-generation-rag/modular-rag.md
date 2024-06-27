@@ -28,4 +28,4 @@ description: '模組化改進 : 加入用於相似性搜索的模組，透過微
 
 允許模組替換或重新配置來解決特定問題，可以透過整合新模組或調整現有模組之間的互動流程，靈活架構可以更輕鬆地與其他技術整合，微調檢索器以獲得更好的檢索結果，微調產生器以獲得更個人化的輸出。
 
-<figure><img src="../.gitbook/assets/image (6).png" alt="" width="375"><figcaption><p>Modular RAG</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt="" width="375"><figcaption><p>Modular RAG</p></figcaption></figure>

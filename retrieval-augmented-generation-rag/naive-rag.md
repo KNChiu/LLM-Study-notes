@@ -60,7 +60,7 @@ description: >-
 
         > 自適應檢索使 RAG 系統能夠自主確定是否需要外部知識檢索以及何時停止檢索和生成，通常利用 LLM 生成的特殊 tokens (主動使用檢索器自助詢問等技術，並採用少量提示來啟動搜尋查詢)進行控制，允許模型評估其輸出包含「檢索」和「評論家」。
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt="" width="272"><figcaption><p>Naive RAG</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt="" width="272"><figcaption><p>Naive RAG</p></figcaption></figure>
 
 ### 缺點與挑戰
 
@@ -77,4 +77,4 @@ description: >-
 
 *
 
-    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>不同流程說明</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>不同流程說明</p></figcaption></figure>

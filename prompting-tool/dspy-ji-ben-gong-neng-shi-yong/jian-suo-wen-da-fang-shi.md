@@ -54,7 +54,7 @@ compiled_rag = teleprompter.compile(RAG(), trainset=trainset)
 
 #### 訓練資料樣式
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 進行資料檢索並找出關聯性最高的前N名
 
@@ -68,7 +68,7 @@ my_question = "What is the total population of Taiwan?"
 pred = compiled_rag(my_question)
 ```
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 將前N名關聯性資料提供給LLM，並搭配 CoT 進行問答
 

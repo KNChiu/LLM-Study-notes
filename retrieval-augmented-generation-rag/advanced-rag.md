@@ -21,4 +21,4 @@ description: >-
 
 
 
-<figure><img src="../.gitbook/assets/image (5).png" alt="" width="270"><figcaption><p>Advanced RAG</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt="" width="270"><figcaption><p>Advanced RAG</p></figcaption></figure>
