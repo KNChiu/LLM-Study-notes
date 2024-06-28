@@ -18,7 +18,7 @@
 Let's think step by step.
 ```
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Zero-shot CoT</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Zero-shot CoT</p></figcaption></figure>
 
 ## **Self-Consistency**
 

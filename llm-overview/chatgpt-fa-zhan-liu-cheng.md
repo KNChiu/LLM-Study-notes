@@ -55,7 +55,7 @@ Dataset Tokens 與 Parameters 比較
 
 prompt(人類指令約 10K) ↔ response(針對人類指令標註約 100K)
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>資料集準備</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>資料集準備</p></figcaption></figure>
 
 ### Reward Modeling
 

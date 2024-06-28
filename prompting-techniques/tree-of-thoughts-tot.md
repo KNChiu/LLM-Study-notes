@@ -65,4 +65,4 @@ $$
 * **Value** each state independently : 使用前瞻 ( lookahead ) 模擬來快速檢查 (5 + 5 + 14 = 24)，並生成轉換後的分類（肯定/可能/不可能），這個評估不需要是完美。
 * **Vote** across states：當問題很難直接評估時，比較不同的部分並投票選出最有希望的解決方案。將「探索哪個狀態」作為多選 QA，並使用 LM 樣本對其進行投票。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Thought decomposition (思想分解)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Thought decomposition (思想分解)</p></figcaption></figure>
