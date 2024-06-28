@@ -6,6 +6,7 @@
   * [小模型與高質量數據集討論](llm-overview/xiao-mo-xing-yu-gao-zhi-liang-shu-ju-ji-tao-lun/README.md)
     * [phi-1](llm-overview/xiao-mo-xing-yu-gao-zhi-liang-shu-ju-ji-tao-lun/phi-1.md)
     * [phi-1.5](llm-overview/xiao-mo-xing-yu-gao-zhi-liang-shu-ju-ji-tao-lun/phi-1.5.md)
+    * [Phi-3 / Phi-3-vision](llm-overview/xiao-mo-xing-yu-gao-zhi-liang-shu-ju-ji-tao-lun/phi-3-phi-3-vision.md)
     * [合成數據](llm-overview/xiao-mo-xing-yu-gao-zhi-liang-shu-ju-ji-tao-lun/he-cheng-shu-ju.md)
     * [爭議討論](llm-overview/xiao-mo-xing-yu-gao-zhi-liang-shu-ju-ji-tao-lun/zheng-yi-tao-lun.md)
 * [Prompting Techniques](prompting-techniques/README.md)
