@@ -11,6 +11,7 @@
       * [爭議討論](llm-overview/xiao-mo-xing-yu-gao-zhi-liang-shu-ju-ji-tao-lun/phi-xi-lie/zheng-yi-tao-lun.md)
     * [合成數據](llm-overview/xiao-mo-xing-yu-gao-zhi-liang-shu-ju-ji-tao-lun/he-cheng-shu-ju/README.md)
       * [使用大型文字語言模型生成合成數據](llm-overview/xiao-mo-xing-yu-gao-zhi-liang-shu-ju-ji-tao-lun/he-cheng-shu-ju/shi-yong-da-xing-wen-zi-yu-yan-mo-xing-sheng-cheng-he-cheng-shu-ju.md)
+      * [語言模型合成資料的最佳實踐和經驗教訓](llm-overview/xiao-mo-xing-yu-gao-zhi-liang-shu-ju-ji-tao-lun/he-cheng-shu-ju/yu-yan-mo-xing-he-cheng-zi-liao-de-zui-jia-shi-jian-he-jing-yan-jiao-xun.md)
 * [Prompting Techniques](prompting-techniques/README.md)
   * [何謂 Prompts](prompting-techniques/he-wei-prompts.md)
   * [Chain-of-Thought (CoT)](prompting-techniques/chain-of-thought-cot.md)
