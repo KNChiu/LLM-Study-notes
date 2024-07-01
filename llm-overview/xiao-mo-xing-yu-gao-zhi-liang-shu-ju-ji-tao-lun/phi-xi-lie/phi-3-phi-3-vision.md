@@ -12,7 +12,7 @@ Phi-3-vision
 
 ## Phi-3 系列模型介紹與更新
 
-### 一、劃時代的性能與小型化
+### 1. 劃時代的性能與小型化
 
 *   Phi-3 小型語言模型（SLMs）使用高質量數據訓練
 
@@ -27,7 +27,7 @@ Phi-3-vision
 
 <figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Phi-3 模型大小與效果比較</p></figcaption></figure>
 
-### 二、安全性評估
+### 2. 安全性評估
 
 * 遵循微軟負責任 AI 標準，包含六項原則：
   * 問責制、透明度、公平性、可靠性和安全性、隱私和安全性、包容性。
@@ -36,13 +36,13 @@ Phi-3-vision
 * 使用高質量數據訓練
   * 經過強化學習和多種危害類別的自動化測試和人工紅隊測試。
 
-### 三、優化與支援性
+### 3. 優化與支援性
 
 * 使用 ONNX Runtime 優化模型
   * 支持 Windows DirectML 和跨平台支援。
   * 針對 NVIDIA GPU 和 Intel accelerators 進行優化。
 
-### 四、多模態的引入
+### 4. 多模態的引入
 
 *   Phi-3 系列新增 Phi-3-vision 模型
 
@@ -53,7 +53,7 @@ Phi-3-vision
 
 
 
-### 五、選擇合適的模型
+### 5. 選擇合適的模型
 
 * **Phi-3-mini**  (3.8B) : 支援 128K, 4K 兩種上下文長度(context lengths)。
 * **Phi-3-small** (7B)  : 在語言、推理、程式碼和數學測試中擊敗 GPT-3.5。
