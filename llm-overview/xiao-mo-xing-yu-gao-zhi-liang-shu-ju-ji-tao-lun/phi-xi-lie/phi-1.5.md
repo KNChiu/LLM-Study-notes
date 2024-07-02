@@ -18,9 +18,11 @@ description: 'Textbooks Are All You Need II: phi-1.5 technical report'
 
 * 使用Transformer架構，24層，32個檢測頭，每個檢測頭的維度為64。
 * 使用旋轉嵌入(rotary embedding)和flash-attention。
-* **數據生成與組成**
-  * **主題選擇**：精心選擇了20,000個主題作為生成這些新合成數據的種子。
-  * 過濾後的 Web 資料(95B tokens)：使用來自網頁數據集的樣本來增加多樣性，
+* 數據生成與組成
+  * 主題選擇
+    * 精心選擇了20,000個主題作為生成這些新合成數據的種子。
+  * 過濾後的 Web 資料(95B tokens)
+    * 使用來自網頁數據集的樣本來增加多樣性，
     * Falcon 精煉 Web 資料集過濾出的 (88B tokens)。
     * The Stack 和 StackOverflow 過濾出的Web資料標記資料集(7B tokens)。
 
