@@ -4,6 +4,10 @@ description: Synthetic Data Generation with Large Language Models for Text
 
 # 使用大型文字語言模型生成合成數據
 
+## 重點整理:
+
+使用合成數據來訓練大型自然語言處理模型的可行性。研究結果顯示，合成數據在一定程度上可以替代真實數據，並且在特定任務上表現出與真實數據相近的效果。
+
 ## 1. Introduction
 
 ### 合成數據的需求與研究背景
