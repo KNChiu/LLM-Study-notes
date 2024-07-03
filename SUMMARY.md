@@ -13,6 +13,7 @@
       * [Phi-3 / Phi-3-vision](llm-overview/gao-zhi-liang-shu-ju-ji-tao-lun/phi-xi-lie/phi-3-phi-3-vision.md)
       * [爭議討論](llm-overview/gao-zhi-liang-shu-ju-ji-tao-lun/phi-xi-lie/zheng-yi-tao-lun.md)
     * [Nemotron-4 340B Technical Report](llm-overview/gao-zhi-liang-shu-ju-ji-tao-lun/nemotron-4-340b-technical-report.md)
+  * [LLM 對齊](llm-overview/llm-dui-qi.md)
 * [Prompting Techniques](prompting-techniques/README.md)
   * [何謂 Prompts](prompting-techniques/he-wei-prompts.md)
   * [Chain-of-Thought (CoT)](prompting-techniques/chain-of-thought-cot.md)
