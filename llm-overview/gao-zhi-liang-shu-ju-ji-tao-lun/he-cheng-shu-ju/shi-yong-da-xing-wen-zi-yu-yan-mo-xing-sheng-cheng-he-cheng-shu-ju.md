@@ -82,7 +82,7 @@ description: Synthetic Data Generation with Large Language Models for Text
   * 排名 : 總共獲得了540個成對主觀比較，來確定每個任務的主觀性水平。
   * 最終得到的任務主觀性排名結果如下，反映了不同文本分類任務的主觀性水平差異。
 
-<figure><img src="../../../.gitbook/assets/image.png" alt="" width="563"><figcaption><p>在 「 主觀性 」 欄中，「 ⋆ 」 符號越多，表示任務主觀性程度越高。</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption><p>在 「 主觀性 」 欄中，「 ⋆ 」 符號越多，表示任務主觀性程度越高。</p></figcaption></figure>
 
 * 比較現實世界數據和合成數據的多樣性
   * Remote Clique Score（資料實例到其他實例的平均距離）
