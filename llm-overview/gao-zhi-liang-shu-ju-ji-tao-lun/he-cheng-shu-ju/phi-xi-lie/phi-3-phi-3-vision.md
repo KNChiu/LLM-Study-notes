@@ -20,12 +20,12 @@ Phi-3-vision
     * Phi-3 系列模型適用於各種語言理解、推理分析和生成任務。
     * 在資源有限和低延遲需求的場景中表現突出，甚至部署於手機上(Phi-3-mini 4-bit)。
 
-    <figure><img src="../../../.gitbook/assets/image (35).png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (35).png" alt="" width="563"><figcaption></figcaption></figure>
 * Phi-3 性能優於同等和更大尺寸模型
   * 支持 4K /8K 和 128K 的上下文長度，適用於不同場景需求。
   * 在語言、推理、程式碼和數學等基準性能優於同等和更大尺寸模型，如 GPT-3.5T 和 Gemini 1.0 Pro。
 
-<figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Phi-3 模型大小與效果比較</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Phi-3 模型大小與效果比較</p></figcaption></figure>
 
 ### 2. 安全性評估
 
@@ -49,7 +49,7 @@ Phi-3-vision
     * 結合語言和視覺能力，對於文本和圖像進行推理。
     * 在視覺推理任務、OCR、表格和圖表理解任務中性能超過更大尺寸模型。
 
-    <figure><img src="../../../.gitbook/assets/image (36).png" alt="" width="563"><figcaption><p>Phi-3-vision 圖表理解能力</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (36).png" alt="" width="563"><figcaption><p>Phi-3-vision 圖表理解能力</p></figcaption></figure>
 
 
 
@@ -58,15 +58,15 @@ Phi-3-vision
 * **Phi-3-mini**  (3.8B) : 支援 128K, 4K 兩種上下文長度(context lengths)。
 * **Phi-3-small** (7B)  : 在語言、推理、程式碼和數學測試中擊敗 GPT-3.5。
 
-<figure><img src="../../../.gitbook/assets/image (32).png" alt="" width="563"><figcaption><p>Phi-3-small(7B)</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (32).png" alt="" width="563"><figcaption><p>Phi-3-small(7B)</p></figcaption></figure>
 
 * **Phi-3-medium** (14B) : 各項表現優於Gemini 1.0 Pro。
 
-<figure><img src="../../../.gitbook/assets/image (33).png" alt="" width="563"><figcaption><p><strong>Phi-3-medium</strong> (14B)</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (33).png" alt="" width="563"><figcaption><p><strong>Phi-3-medium</strong> (14B)</p></figcaption></figure>
 
 * **Phi-3-vision** (4.2B) : 適合需要圖文結合推理的任務，如 OCR 和圖表理解，優於 Claude-3 Haiku 和 Gemini 1.0 Pro V 等較大模型。
 
-<figure><img src="../../../.gitbook/assets/image (34).png" alt="" width="563"><figcaption><p><strong>Phi-3-vision</strong> (4.2B) </p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (34).png" alt="" width="563"><figcaption><p><strong>Phi-3-vision</strong> (4.2B) </p></figcaption></figure>
 
 ### 筆記重點
 
