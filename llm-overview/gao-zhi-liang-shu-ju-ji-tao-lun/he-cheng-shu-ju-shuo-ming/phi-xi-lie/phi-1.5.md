@@ -38,7 +38,7 @@ description: 'Textbooks Are All You Need II: phi-1.5 technical report'
   * phi-1 的程式碼資料(20%)
   * 新建立的合成數據(40%)
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption><p>用上下文長度 2048 fp16 的單一 A100-80G 訓練</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption><p>用上下文長度 2048 fp16 的單一 A100-80G 訓練</p></figcaption></figure>
 
 ### 經驗總結
 
@@ -58,7 +58,7 @@ description: 'Textbooks Are All You Need II: phi-1.5 technical report'
 
 WinoGrande, ARC-Easy, ARC-Challenge, BoolQ, SIQA。
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption><p>常識推理</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>常識推理</p></figcaption></figure>
 
 ### 語言理解和知識問答
 

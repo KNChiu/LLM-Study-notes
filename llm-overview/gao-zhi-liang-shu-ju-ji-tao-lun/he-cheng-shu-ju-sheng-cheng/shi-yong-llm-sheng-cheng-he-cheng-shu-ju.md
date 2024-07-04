@@ -1,6 +1,6 @@
 # 使用LLM生成合成數據
 
-參考 [Nemotron-4 340B Technical Report](he-cheng-shu-ju-sheng-cheng/nemotron-4-340b-technical-report.md) 此篇附錄
+參考 [Nemotron-4 340B Technical Report](nemotron-4-340b-technical-report.md) 此篇附錄
 
 ## Prompts Used for Synthetic Prompt Generation
 
