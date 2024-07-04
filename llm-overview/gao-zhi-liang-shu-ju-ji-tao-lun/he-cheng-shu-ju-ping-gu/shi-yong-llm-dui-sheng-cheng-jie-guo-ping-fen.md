@@ -81,10 +81,8 @@ response = "Nicely, Beautifully, Handsome, Stunning, Wonderful, Gorgeous, Pretty
 模型 : [2.7812, 2.8398, 3.4844, 1.3945, 1.3262]
 ```
 
+***
+
 ## 範例列表
 
-| Prompt                                            | Response                                                                                  | 有用性    | 正確性    | 連貫性    | 複雜性    | 冗長性    |
-| ------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------ | ------ | ------ | ------ | ------ |
-| What are some synonyms for the word "beautiful"?' | "Nicely, Beautifully, Handsome, Stunning, Wonderful, Gorgeous, Pretty, Stunning, Elegant" | 2.7812 | 2.8398 | 3.4844 | 1.3945 | 1.3262 |
-| 「美麗」這個字的同義詞有哪些？                                   | 漂亮、美麗、英俊、令人驚嘆、精彩、華麗、漂亮、優雅                                                                 | 3.0156 | 3.2891 | 3.1328 | 1.6094 | 2.3906 |
-| 「美麗」這個字的同義詞有哪些？                                   | 醜陋、笨重、平凡、無聊、樸素、不吸引人、平凡、粗俗                                                                 | 1.3164 | 1.6191 | 2.3125 | 1.1406 | 1.7852 |
+<table data-full-width="false"><thead><tr><th>Prompt</th><th>Response</th><th>有用性</th><th>正確性</th><th>連貫性</th><th>複雜性</th><th>冗長性</th></tr></thead><tbody><tr><td>What are some synonyms for the word "beautiful"?'</td><td>"Nicely, Beautifully, Handsome, Stunning, Wonderful, Gorgeous, Pretty, Stunning, Elegant"</td><td>2.7812</td><td>2.8398</td><td>3.4844</td><td>1.3945</td><td>1.3262</td></tr><tr><td>「美麗」這個字的同義詞有哪些？</td><td>漂亮、美麗、英俊、令人驚嘆、精彩、華麗、漂亮、優雅</td><td>3.0156</td><td>3.2891</td><td>3.1328</td><td>1.6094</td><td>2.3906</td></tr><tr><td>「美麗」這個字的同義詞有哪些？</td><td>醜陋、笨重、平凡、無聊、樸素、不吸引人、平凡、粗俗</td><td>1.3164</td><td>1.6191</td><td>2.3125</td><td>1.1406</td><td>1.7852</td></tr></tbody></table>
