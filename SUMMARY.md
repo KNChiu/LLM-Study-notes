@@ -14,7 +14,7 @@
         * [爭議討論](llm-overview/gao-zhi-liang-shu-ju-ji-tao-lun/he-cheng-shu-ju/phi-xi-lie/zheng-yi-tao-lun.md)
     * [合成數據生成](llm-overview/gao-zhi-liang-shu-ju-ji-tao-lun/he-cheng-shu-ju-sheng-cheng/README.md)
       * [Nemotron-4 340B Technical Report](llm-overview/gao-zhi-liang-shu-ju-ji-tao-lun/he-cheng-shu-ju-sheng-cheng/nemotron-4-340b-technical-report.md)
-      * [使用LLM生成合成數據](llm-overview/gao-zhi-liang-shu-ju-ji-tao-lun/he-cheng-shu-ju-sheng-cheng/shi-yong-llm-sheng-cheng-he-cheng-shu-ju.md)
+    * [使用LLM生成合成數據](llm-overview/gao-zhi-liang-shu-ju-ji-tao-lun/shi-yong-llm-sheng-cheng-he-cheng-shu-ju.md)
   * [LLM 對齊](llm-overview/llm-dui-qi.md)
 * [Prompting Techniques](prompting-techniques/README.md)
   * [何謂 Prompts](prompting-techniques/he-wei-prompts.md)
