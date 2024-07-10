@@ -100,7 +100,7 @@
 
 <figure><img src="../../../.gitbook/assets/image (49).png" alt="" width="342"><figcaption><p>Nemotron-4-340B-Reward</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>各任務對比</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>各任務對比</p></figcaption></figure>
 
 ## 5. 訓練方法細節
 

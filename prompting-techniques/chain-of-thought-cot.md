@@ -6,7 +6,7 @@
 
 * 透過加入手動編寫 (Manual-CoT) 的少樣本推理步驟提示，實現較為複雜的問題
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Manual-CoT</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Manual-CoT</p></figcaption></figure>
 
 ## **Zero-shot CoT Prompting**
 
@@ -18,7 +18,7 @@
 Let's think step by step.
 ```
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Zero-shot CoT</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Zero-shot CoT</p></figcaption></figure>
 
 ## **Self-Consistency**
 
@@ -36,7 +36,7 @@ Let's think step by step.
 
 由於 Zero-shot CoT (a) 使用固定的 Prompt **“Let's think step by step.”** 與 Few-shot CoT (Manual-CoT)(b) 使用**推理步驟範例**不一定適合所有的情境(arithmetic 、commonsense reasoning…)
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Zero-shot, Few-shot COT review</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Zero-shot, Few-shot COT review</p></figcaption></figure>
 
 ### 兩階段工作拆解
 
@@ -46,7 +46,7 @@ Let's think step by step.
 
 將資料集中的問題分成幾個集群(**Cluster**)。使用PCA投影可視化後。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption><p>Question Clustering</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Question Clustering</p></figcaption></figure>
 
 #### **Demonstration Sampling :**
 
@@ -60,4 +60,4 @@ Simple Heuristics (簡單啟發式方法)
 
 將各個代表性問題的啟發式方法(少量 tokens 與 推理步驟)使用“Let’s think step by step”自動生成這些代表性問題的回覆，這樣在後續遇到相似類性問題時能夠得到較好的回答效果。
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption><p>Demonstration Sampling</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Demonstration Sampling</p></figcaption></figure>

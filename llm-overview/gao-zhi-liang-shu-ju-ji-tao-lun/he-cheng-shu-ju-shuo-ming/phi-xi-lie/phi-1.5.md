@@ -38,7 +38,7 @@ description: 'Textbooks Are All You Need II: phi-1.5 technical report'
   * phi-1 的程式碼資料(20%)
   * 新建立的合成數據(40%)
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption><p>用上下文長度 2048 fp16 的單一 A100-80G 訓練</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>用上下文長度 2048 fp16 的單一 A100-80G 訓練</p></figcaption></figure>
 
 ### 經驗總結
 
@@ -58,19 +58,19 @@ description: 'Textbooks Are All You Need II: phi-1.5 technical report'
 
 WinoGrande, ARC-Easy, ARC-Challenge, BoolQ, SIQA。
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>常識推理</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>常識推理</p></figcaption></figure>
 
 ### 語言理解和知識問答
 
 PIQA, Hellaswag, OpenbookQA, MMLU, SQUAD。
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption><p>語言理解和知識問答</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt="" width="563"><figcaption><p>語言理解和知識問答</p></figcaption></figure>
 
 ### 多步推理
 
 GSM8K, HumanEval, MBPP。
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption><p>多步推理</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption><p>多步推理</p></figcaption></figure>
 
 ### 補充說明
 
@@ -94,7 +94,7 @@ GSM8K, HumanEval, MBPP。
 * **數據集生成**：合成的“教科書品質”數據在有害內容生成方面有衝減效果。
 * **示例與比較**：與Falcon-7B和Llama2-7B相比，phi-1.5在回應中展示理論心智的概念，避免有害內容。
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption><p>選擇 6541 個句子，並根據困惑度和句子有毒性進行評分。分數範圍從 0 到 1，分數越高表示模型產生有毒句子的可能性較小。</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption><p>選擇 6541 個句子，並根據困惑度和句子有毒性進行評分。分數範圍從 0 到 1，分數越高表示模型產生有毒句子的可能性較小。</p></figcaption></figure>
 
 ## 6. 結論
 

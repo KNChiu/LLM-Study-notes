@@ -14,7 +14,7 @@
 
 使用 ArmoRM-Llama3-8B-v0.1 做為評估模型
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 
 

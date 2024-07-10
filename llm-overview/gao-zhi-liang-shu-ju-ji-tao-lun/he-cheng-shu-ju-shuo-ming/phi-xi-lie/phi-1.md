@@ -26,7 +26,7 @@ description: 'phi-1: Textbooks Are All You Need，高品質數據集對小模型
 * phi-1 和 phi-1-base 的預訓練使用 CodeTextbook 數據集(phi-1-base 29%)，微調使用 CodeExercises 數據集(phi-1 51%)。
 * 模型參數小與架構簡單，但數據質量有顯著提高模型性能，且解鎖了意想不到的程式碼生成功能。
 
-<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt="" width="563"><figcaption><p>增加計算時間(135 -> 1090 GPU hr)與數據(26B -> 76B）或增加模型參數（350M -> 1.3B），且在 CodeTextbook 資料集上訓練的基於 phi-1 的模型僅用 1.3B 參數模型即可實現 29% 的 HumanEval 效能。</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5) (1) (1).png" alt="" width="563"><figcaption><p>增加計算時間(135 -> 1090 GPU hr)與數據(26B -> 76B）或增加模型參數（350M -> 1.3B），且在 CodeTextbook 資料集上訓練的基於 phi-1 的模型僅用 1.3B 參數模型即可實現 29% 的 HumanEval 效能。</p></figcaption></figure>
 
 ### 3. 湧現(emergence)性質
 

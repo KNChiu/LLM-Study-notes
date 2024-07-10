@@ -17,6 +17,7 @@
       * [使用LLM生成合成數據](llm-overview/gao-zhi-liang-shu-ju-ji-tao-lun/he-cheng-shu-ju-sheng-cheng/shi-yong-llm-sheng-cheng-he-cheng-shu-ju.md)
     * [合成數據評估](llm-overview/gao-zhi-liang-shu-ju-ji-tao-lun/he-cheng-shu-ju-ping-gu/README.md)
       * [使用 LLM 對生成結果評分](llm-overview/gao-zhi-liang-shu-ju-ji-tao-lun/he-cheng-shu-ju-ping-gu/shi-yong-llm-dui-sheng-cheng-jie-guo-ping-fen.md)
+      * [用於評估大型語言模型產生的合成資料的多方面評估框架](llm-overview/gao-zhi-liang-shu-ju-ji-tao-lun/he-cheng-shu-ju-ping-gu/yong-wu-ping-gu-da-xing-yu-yan-mo-xing-chan-sheng-de-he-cheng-zi-liao-de-duo-fang-mian-ping-gu-kuang.md)
   * [LLM 對齊](llm-overview/llm-dui-qi.md)
 * [Prompting Techniques](prompting-techniques/README.md)
   * [何謂 Prompts](prompting-techniques/he-wei-prompts.md)
