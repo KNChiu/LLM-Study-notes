@@ -18,13 +18,15 @@
 Let's think step by step.
 ```
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Zero-shot CoT</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Zero-shot CoT</p></figcaption></figure>
 
 ## **Self-Consistency**
 
 [Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171)
 
 透過小樣本 CoT 對多個不同的推理路徑進行取樣，並在多個迭代中來選擇最一致的答案(出現次數最多)，這有助於提高 CoT 提示在涉及算術和常識推理的任務中的表現，但對於回應的類型會有限制(選擇題/固定結果)。
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>由 CoT 改進成為 <strong>Self-Consistency</strong></p></figcaption></figure>
 
 ## **Automatic CoT Prompting**
 

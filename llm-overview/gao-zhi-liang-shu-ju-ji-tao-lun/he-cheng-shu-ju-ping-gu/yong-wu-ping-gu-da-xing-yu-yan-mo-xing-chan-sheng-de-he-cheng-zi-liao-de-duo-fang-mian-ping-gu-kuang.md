@@ -80,7 +80,7 @@ $$
 
     * 用於衡量分類模型的預測準確性，準確率越高，表示模型表現越好。
 
-    <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -94,7 +94,7 @@ $$
 * 判斷某一特定數據點是否存在於合成數據生成模型的訓練集中。
 * 成員推斷攻擊成功率越高，表示生成模型越容易洩露訓練數據中的信息，隱私保護效果越差。
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>成員推斷攻擊成功率(越低表示生成數據的隱私保護效果越好)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>成員推斷攻擊成功率(越低表示生成數據的隱私保護效果越好)</p></figcaption></figure>
 
 
 
