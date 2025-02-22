@@ -18,7 +18,7 @@ description: 依據不同使用場景選擇不同優化器
 
 ## 優化器類型
 
-### **Automatic Few-Shot Learning (**自動少樣本學習)
+### **Automatic Few-Shot Learning (**&#x81EA;動少樣本學習)
 
 #### LabeledFewShot&#x20;
 
@@ -38,7 +38,7 @@ description: 依據不同使用場景選擇不同優化器
 
 
 
-### **Automatic Instruction Optimization (**自動指令優化)
+### **Automatic Instruction Optimization (**&#x81EA;動指令優化)
 
 #### COPRO&#x20;
 

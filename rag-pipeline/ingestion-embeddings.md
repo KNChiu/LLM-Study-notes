@@ -10,13 +10,13 @@ description: 當將文件 Chunking 完成後將進行 Embedding
 Embedding 效果排名
 {% endembed %}
 
-### **Sparse embedding(**稀疏嵌入)
+### **Sparse embedding(**&#x7A00;疏嵌入)
 
 將提示與文件進行匹配，計算強度較低，但可能無法取得文本中更深層的語義。
 
 
 
-### **Semantic embedding (**語意嵌入**)**
+### **Semantic embedding (**&#x8A9E;意嵌&#x5165;**)**
 
 #### **BERT**
 
@@ -30,6 +30,6 @@ Embedding 效果排名
 
 
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Basic RAG Pipeine</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption><p>Basic RAG Pipeine</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>

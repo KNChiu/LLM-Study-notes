@@ -25,7 +25,7 @@ description: >-
 
 ## 提出的方法
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ### 真實性（Fidelity）
 
@@ -55,9 +55,9 @@ $$
 * **數據完整性分數：** Claude（98.4%），ChatGPT（93.9%），Llama（87.59%）
 * **列形狀分數：** Claude（80.92%），ChatGPT（80.97%），Llama（62.29%）
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>非文字表格資料的真實性評估結果</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>非文字表格資料的真實性評估結果</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>文本分析結果</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>文本分析結果</p></figcaption></figure>
 
 
 
@@ -80,7 +80,7 @@ $$
 
     * 用於衡量分類模型的預測準確性，準確率越高，表示模型表現越好。
 
-    <figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 
 

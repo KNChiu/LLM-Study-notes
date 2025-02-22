@@ -20,9 +20,9 @@ DSPy 是一種針對 <mark style="color:red;">`Prompt (提示)`</mark>最佳化�
 
 > 將人工建立的提示和微調抽象化，使用 <mark style="color:red;">`Signatures (簽名)`</mark> 取代，在每次呼叫時都必須有一個自然語言簽名，取代傳統的手寫提示。簽名是一個簡短的函數，它規定了任務的樣式("輸入 -> 輸出")，而不是如何提示 LLM 如何回答（例如，"參考問題和上下文後返回答案"）。
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p>由左邊的Hand-written 替換成右邊的簡短簽名</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption><p>由左邊的Hand-written 替換成右邊的簡短簽名</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>簽名的樣式("輸入 -> 輸出")</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption><p>簽名的樣式("輸入 -> 輸出")</p></figcaption></figure>
 
 範例 :
 
@@ -42,20 +42,20 @@ DSPy 是一種針對 <mark style="color:red;">`Prompt (提示)`</mark>最佳化�
 
 * CoT : 依據簽名自動/自定義生成
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption><p>依據簽名自動生成包含 CoT 的 Prompt</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption><p>依據簽名自動生成包含 CoT 的 Prompt</p></figcaption></figure>
 
 
 
 * RAG : 在 CoT 中加入 Retrieve
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption><p>自定義 RAG</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption><p>自定義 RAG</p></figcaption></figure>
 
 #### Teleprompters (提詞器)
 
 > 透過 DSPy 編譯器實現自動最佳化，詳細見[提示詞自動優化章節](ti-shi-ci-zi-dong-you-hua-fan-li-cheng-shi.md)，自動將 [Signatures ](dspy-jie-shao.md#signatures-qian-ming)與 [Modules ](dspy-jie-shao.md#modules)進行結合與自動優化。
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption><p>以CoT為例，使用最佳的提示範例</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption><p>以CoT為例，使用最佳的提示範例</p></figcaption></figure>
 
 #### 自動優化流程
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>流程說明</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption><p>流程說明</p></figcaption></figure>

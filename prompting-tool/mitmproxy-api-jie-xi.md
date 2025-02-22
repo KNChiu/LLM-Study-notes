@@ -18,19 +18,19 @@ description: API 傳輸資料攔截解析
 
 #### 尋找 Proxy
 
-<figure><img src="../.gitbook/assets/image (12).png" alt="" width="341"><figcaption><p>Proxy 設定</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (57).png" alt="" width="341"><figcaption><p>Proxy 設定</p></figcaption></figure>
 
 #### 編輯 Proxy 伺服器
 
 設定 Proxy IP 位址 : `127.0.0.1:8080`
 
-<figure><img src="../.gitbook/assets/image (13).png" alt="" width="271"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (58).png" alt="" width="271"><figcaption></figcaption></figure>
 
 ### mitmweb&#x20;
 
 啟動 `mitmweb`後在網址列輸入 [http://127.0.0.1:8081/](http://127.0.0.1:8081/) 開啟監聽視窗
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 
 ### Pyrhon 設定
 
@@ -49,4 +49,4 @@ os.environ['HTTPS_PROXY'] = 'http://127.0.0.1:8080'
 
 檢視完整 Request 與 Response
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>設定篩選條件與檢視內容</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (68).png" alt=""><figcaption><p>設定篩選條件與檢視內容</p></figcaption></figure>

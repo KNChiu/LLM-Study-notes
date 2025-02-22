@@ -43,7 +43,7 @@
 > Reasoning: Let's think step by step in order to
 > ```
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption><p>完整 Prompt 內文</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption><p>完整 Prompt 內文</p></figcaption></figure>
 
 ## 自定方式(簡單 QA)
 
@@ -91,7 +91,7 @@
 >
 > * 自動產生完整 Prompt 內文
 >
-> <img src="../../.gitbook/assets/image (24).png" alt="完整 Prompt 內文" data-size="original">
+> <img src="../../.gitbook/assets/image (69).png" alt="完整 Prompt 內文" data-size="original">
 
 
 
@@ -106,4 +106,4 @@
 
 自動進行 CoT 問答
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31).png" alt="" width="375"><figcaption></figcaption></figure>
